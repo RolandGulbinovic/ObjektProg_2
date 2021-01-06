@@ -23,7 +23,7 @@ void Studentas::KurtiFaila(int nd, int studentai) {
 	cout << "Failo sukurimas uztruko: " << elapsed_seconds.count() << "s" << endl;
 }
 
-void Studentas::nuskaitymas(int studentai, int sk, vector<Studentas>& Eiles, int n)
+void Studentas::Nuskaitymas(int studentai, int sk, vector<Studentas>& Eiles, int n)
 {
 	auto start = high_resolution_clock::now();
 	ifstream file;
